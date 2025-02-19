@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "jira-fetch"
+version = "1.0.0"
+description = "A CLI tool to fetch and process Jira issue data"
+authors = ["Your Name <your.email@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+jira = "^3.8.0"
+pandas = "^2.2.0"
+openpyxl = "^3.1.2"
+click = "^8.1.7"
+keyring = "^24.3.0"
+flatten-json = "^0.1.14"
+pyyaml = "^6.0.1"
+requests = "^2.31.0"
+requests-oauthlib = "^2.0.0"
+
+[tool.poetry.scripts]
+jira-fetch = "jira_fetch:fetch_jira_data"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

@@ -1,0 +1,4 @@
+jira_url: "https://yoururl.atlassian.net"
+output_dir: "exports"
+cache_dir: "cache"
+cache_max_age: 43200
