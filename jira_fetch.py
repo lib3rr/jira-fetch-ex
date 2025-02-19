@@ -13,11 +13,9 @@ import re
 import time
 import logging
 import yaml
-from concurrent.futures import ThreadPoolExecutor
 import requests
 from requests_oauthlib import OAuth2Session
 import webbrowser
-import csv
 
 # Logging setup
 logging.basicConfig(
